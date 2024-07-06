@@ -7,7 +7,24 @@
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <h1>Welcome to the recipe generator</h1>
+    <header>
+      <h1>🤖 AI Recipe Generator 🥣</h1>
+    </header>
+
+    <main>
+      <form>
+        <input
+          type="text"
+          placeholder="Type a cuisine to discover recipes
+        (e.g., Spanish, Lebanese, Korean)"
+          autofocus
+          required
+          autocomplete="off"
+        />
+        <input type="submit" />
+      </form>
+      <div class="recipe" id="recipe">The recipe will appear here</div>
+    </main>
 
     <footer>
       This project was coded by
