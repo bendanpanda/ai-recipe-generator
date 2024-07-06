@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AI Recipe Generator 🥣</title>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
@@ -13,7 +14,7 @@
       </header>
 
       <main>
-        <form>
+        <form id="recipe-generator-form">
           <input
             type="text"
             placeholder="Type a cuisine to discover recipes (e.g., Spanish, Lebanese, Korean)"
@@ -24,7 +25,7 @@
           />
           <input type="submit" class="submit-button" />
         </form>
-        <div class="recipe" id="recipe">The recipe will appear here</div>
+        <div class="recipe" id="recipe">📝</div>
       </main>
 
       <footer>
