@@ -71,3 +71,7 @@ a {
   line-height: 1.5;
   color: #402a23;
 }
+
+.recipe strong {
+  color: #ffa952;
+}
