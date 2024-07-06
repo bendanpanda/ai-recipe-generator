@@ -1,3 +1,73 @@
+body {
+  background-color: #fcf4d9;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+header {
+  margin-bottom: 30px;
+}
+footer {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 13px;
+  line-height: 2;
+  color: #402a23;
+  border-top: 1px solid #ffa952;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 1.5;
+  color: #402a23;
+}
+
+form {
+  padding: 30px;
+  background-color: #ffe79a;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 50px;
+  display: flex;
+  margin-bottom: 30px;
+}
 a {
   text-decoration: none;
+  color: #d55b3e;
+}
+
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+}
+
+.instructions {
+  background-color: #feffdf;
+  border: 1px solid #ffa952;
+  border-radius: 20px;
+  padding: 10px;
+  width: 82%;
+  font-size: 14px;
+  line-height: 16px;
+}
+.submit-button {
+  background-color: #ffa952;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 12px;
+  margin-left: 10px;
+  color: #402a23;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.recipe {
+  background-color: #ffe79a;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+  border-left: 3px solid #ffa952;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 14 px;
+  line-height: 1.5;
+  color: #402a23;
 }
