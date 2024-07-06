@@ -72,6 +72,19 @@ a {
   color: #402a23;
 }
 
+.hidden {
+  display: none;
+}
+
 .recipe strong {
   color: #e8751a;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0.05;
+  }
+}
+.generating {
+  animation: blink 1.2s step-start 0s infinite;
 }
